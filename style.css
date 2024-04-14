@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.bg {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-image: url('https://i.pinimg.com/originals/0f/88/3e/0f883e6f5db348671c1e26a7dfd2e5f3.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-rgba {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, .6);
+}
+
+.content {
+  width: 100%;
+  padding-bottom: 50px;
+  position: absolute;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-container {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 10px solid magenta;
+  overflow: hidden;
+}
+
+.img-container .logo {
+  width: 100%;
+}
+
+.title {
+  font-family: "Spicy Rice", serif;
+  font-size: 50px;
+  color: #fff;
+}
+
+.link {
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.links ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.links a {
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  border-radius: 999px;
+}
+
+span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+i {
+  font-size: 25px;
+  color: #fff;
+}
+
+
+/* COLORS */
+.twitch {
+  background-color: #6946a8;
+}
+.tiktok {
+  background-color: #24f1eb;
+}
+.instagram {
+  background-color: #f92e8c;
+}
+.facebook {
+  background-color: #0862f7;
+}
+.youtube {
+  background-color: #f70101;
+}
+.paypal {
+  background-color: #083789;
+}
+.discord {
+  background-color: #718bd5;
+}
